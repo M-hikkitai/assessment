@@ -1,0 +1,21 @@
+body{
+    background-color: #04a6ed;
+    color: #fdffff;/*カラーコードは検索すれば出る*/
+    /*カラースキーム：配色理論などに基づいた色の提案をしてくれるサイト*/
+    width: 500px;/*幅*/
+    margin-right: auto;
+    margin-left: auto;
+    /*autoは自動調節、つまり左右とも自動*/
+}
+
+button{
+    padding: 5px 20px;/*ボタンの中の文字周りの余白
+    marginの場合は、ボタン本体周りの余白(padding：詰め物)*/
+    background-color: #337ab7;
+    border-style: none;/*ボタンと外との境界線*/
+    color: #fdffff;
+}
+
+input{
+    height: 20px;
+}
