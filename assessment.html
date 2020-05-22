@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>あなたのいいところ診断</title>
+        <link rel="stylesheet" href="assessment.css">
+    </head>
+    <body>
+        <h1>あなたのいいところは？</h1>
+        <p>診断したい名前を入れてください</p>
+        <input type="text" id="user-name" size="40" maxlength="20" />
+        <!--typeテキスト形式、size入力欄の大きさ、maxlength入力欄の最大文字数-->        
+        <button id="assessment">診断する</button>
+        <!--ボタンを作るタグ-->
+        <div id="result-area"></div>
+        <div id="tweet-area"></div>
+        <!--divタグ：タグに意味は無い空きスペースだが、
+            IDなどをつけてスタイルシートから表示させられる-->
+        <script src="assessment.js"></script>
+    </body>
+</html>
